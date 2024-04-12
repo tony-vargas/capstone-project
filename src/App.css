@@ -1,0 +1,124 @@
+/* 
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(228, 168, 200);
+} */
+
+/* @media screen  and (max-width: 767px) {
+  
+} */
+
+
+.headerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "sans-serif";
+  font-weight: 8px;
+  font-size: large;
+  color: rgba(217, 15, 15, 0.913);
+  text-align: left;
+  font-style: bold;
+  font-variant: normal;
+  letter-spacing: 4px;
+  
+}
+
+.price {
+  color: black;
+}
+
+.price-home {
+  font-size: larger;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.form-container, .cart-container, .purchase-container {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  border: solid rgb(49, 49, 163) 5px;
+}
+
+.justify-content-end, .Nav {
+  background-color: rgb(166, 28, 51);
+}
+
+#root {
+  background-color: rgb(254, 254, 254);
+  /* flex-direction: row; */
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.post {
+  padding: 15px;
+  border: solid rgb(137, 57, 72) 8px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 25px;
+  grid-area: span;
+}
+
+
+img {
+  height: 500px;
+  max-width: 640px;
+  object-fit: contain;
+}
+
+
+h4 {
+  color: rgba(163, 92, 104, 0.797);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fff8f8;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #a0a2bc;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+footer {
+  padding: 30px;
+  border: dotted pink 2px;
+  margin: auto;
+  border-radius: 12px;
+
+}
